@@ -375,7 +375,7 @@ nav a:hover {
   font-size: 13px;
 }
 
-/* WHY US */
+/* WHY US 
 
 .why-us {
   background: var(--dark-green);
@@ -418,6 +418,7 @@ nav a:hover {
   color: #d5e5db;
   font-size: 13px;
 }
+ */
 
 /* PORTFOLIO */
 
@@ -478,6 +479,10 @@ nav a:hover {
 
 /* CONTACT */
 
+.co {
+  background: var(--light-green);
+  padding-top: 2%;
+}
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -555,6 +560,7 @@ nav a:hover {
   background: var(--dark-green);
   color: white;
   padding: 45px 0 20px;
+  margin-bottom: 50px;
 }
 
 .footer-content {
@@ -588,7 +594,7 @@ nav a:hover {
   border-top: 1px solid #527266;
   padding-top: 20px;
   text-align: center;
-  font-size: 12px;
+  font-size: 1rem;
   color: #d5e5db;
 }
 
@@ -719,4 +725,20 @@ nav a:hover {
   .hero-content h1 {
     font-size: 2.2rem;
   }
+}
+.footer-social h3 {
+  color: #93c5fd;
+  margin-bottom: 15px;
+}
+
+.footer-social a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+
+  margin: 1rem;
+  transition: color 0.3s ease;
+}
+.footer-social img {
+  width: 1.8rem;
 }
